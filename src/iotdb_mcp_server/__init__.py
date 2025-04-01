@@ -1,5 +1,7 @@
-from config import Config
-from . import server
+from iotdb_mcp_server.config import Config
+import sys
+if not '-m' in sys.argv:
+    from . import server
 import asyncio
 
 

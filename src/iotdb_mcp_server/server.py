@@ -1,5 +1,5 @@
-from config import Config
-from utils import security_gate, templates_loader
+from iotdb_mcp_server.config import Config
+from iotdb_mcp_server.utils import security_gate, templates_loader
 from iotdb.table_session_pool import TableSessionPool, TableSessionPoolConfig
 
 import asyncio
